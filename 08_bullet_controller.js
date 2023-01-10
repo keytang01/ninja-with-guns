@@ -75,6 +75,7 @@ export class BulletController {
                     break;
                 case "nuke":
                     this.bullets.push(new AnimatedBullet(bulletData));
+                    this.gunSoundMap.nuke.volume = 0.4;
                     this.gunSoundMap.nuke.play();
                     break;
                 case "alien": 

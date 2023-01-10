@@ -188,7 +188,7 @@ export class GameData {
                 frames: 5,
                 frameSpeed: 5,
                 velocityMultiplier: 50,
-                fireRate: 2,
+                fireRate: 5,
                 type: "chemrail",
                 soundSrc: "./sfx/guns/chemrail.mp3"
             },
@@ -220,7 +220,7 @@ export class GameData {
                 frames: 3,
                 frameSpeed: 5,
                 velocityMultiplier: 10,
-                fireRate: 5,
+                fireRate: 30,
                 type: "alien",
                 soundSrc: "./sfx/guns/green_stuff.wav"
             },
